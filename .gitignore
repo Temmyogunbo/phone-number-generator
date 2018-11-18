@@ -1,0 +1,6 @@
+.next
+node_modules/
+coverage/
+bundle-analyzer
+.DS_Store
+yarn-error.log
