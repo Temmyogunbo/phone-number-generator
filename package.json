@@ -1,0 +1,62 @@
+{
+  "name": "phone-number-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "size": "size-limit",
+    "dev": "NODE_ENV=development next",
+    "build": "next build",
+    "start": "NODE_ENV=production next start",
+    "test": "NODE_ENV=test jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temmyogunbo/phone-number-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temmyogunbo/phone-number-generator/issues"
+  },
+  "homepage": "https://github.com/Temmyogunbo/phone-number-generator#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "7.0.0-bridge.0",
+    "glamor": "^2.20.40",
+    "next": "7.0.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
+  },
+  "devDependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "23.4.2",
+    "size-limit": "^0.21.0"
+  },
+  "size-limit": [
+    {
+      "path": ".next/static/chunks/commons.*.js",
+      "webpack": false,
+      "limit": "70 KB"
+    }
+  ],
+  "jest": {
+    "setupTestFrameworkScriptFile": "./jest.setup.js",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!babel.config.js",
+      "!next.config.js",
+      "!jest.setup.js"
+    ],
+    "collectCoverage": true
+  }
+}
