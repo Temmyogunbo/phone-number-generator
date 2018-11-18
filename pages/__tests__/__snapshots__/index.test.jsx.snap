@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages tests Generate Page should render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Index
+    phoneNumbers="0821517432
+0481834224"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Box
+          data-css-ajs7mu=""
+        >
+          <Box
+            data-css-57g17o=""
+          >
+             Phone Numbers
+          </Box>
+          <RenderPhoneNumbersList
+            newPhoneNumbers={
+              Array [
+                "0821517432",
+              ]
+            }
+          />
+        </Box>,
+        <RenderMinMaxNumber
+          maxMinNumber={
+            Object {
+              "maxNumber": "0821517432",
+              "minNumber": "0821517432",
+            }
+          }
+          totalNumbers={1}
+        />,
+      ],
+      "data-css-1rdpaq8": "",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Box
+              data-css-57g17o=""
+            >
+               Phone Numbers
+            </Box>,
+            <RenderPhoneNumbersList
+              newPhoneNumbers={
+                Array [
+                  "0821517432",
+                ]
+              }
+            />,
+          ],
+          "data-css-ajs7mu": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": " Phone Numbers",
+              "data-css-57g17o": "",
+            },
+            "ref": null,
+            "rendered": " Phone Numbers",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "newPhoneNumbers": Array [
+                "0821517432",
+              ],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "maxMinNumber": Object {
+            "maxNumber": "0821517432",
+            "minNumber": "0821517432",
+          },
+          "totalNumbers": 1,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Box
+            data-css-ajs7mu=""
+          >
+            <Box
+              data-css-57g17o=""
+            >
+               Phone Numbers
+            </Box>
+            <RenderPhoneNumbersList
+              newPhoneNumbers={
+                Array [
+                  "0821517432",
+                ]
+              }
+            />
+          </Box>,
+          <RenderMinMaxNumber
+            maxMinNumber={
+              Object {
+                "maxNumber": "0821517432",
+                "minNumber": "0821517432",
+              }
+            }
+            totalNumbers={1}
+          />,
+        ],
+        "data-css-1rdpaq8": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Box
+                data-css-57g17o=""
+              >
+                 Phone Numbers
+              </Box>,
+              <RenderPhoneNumbersList
+                newPhoneNumbers={
+                  Array [
+                    "0821517432",
+                  ]
+                }
+              />,
+            ],
+            "data-css-ajs7mu": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": " Phone Numbers",
+                "data-css-57g17o": "",
+              },
+              "ref": null,
+              "rendered": " Phone Numbers",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "newPhoneNumbers": Array [
+                  "0821517432",
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "maxMinNumber": Object {
+              "maxNumber": "0821517432",
+              "minNumber": "0821517432",
+            },
+            "totalNumbers": 1,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Pages tests Generate Page should render 2`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RenderPhoneNumbersList
+    phoneNumbers="0821517432
+0481834224"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "Component": "ol",
+      "children": Array [],
+    },
+    "ref": null,
+    "rendered": Array [],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "Component": "ol",
+        "children": Array [],
+      },
+      "ref": null,
+      "rendered": Array [],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`Pages tests Generate Page should render 3`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <RenderMinMaxNumber
+    maxMinNumber={
+      Object {
+        "maxNumber": "0774369284",
+        "minNumber": "0080235358",
+      }
+    }
+    totalNumbers={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <Box
+          data-css-19o0xc1=""
+        >
+          Minimum Number: 
+          0080235358
+        </Box>,
+        <Box
+          data-css-19o0xc1=""
+        >
+          Maximum Number: 
+          0774369284
+        </Box>,
+        <Box
+          data-css-tn55bb=""
+        >
+          Total numbers generated: 
+          10
+        </Box>,
+      ],
+      "data-css-19oxhgi": "",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "Minimum Number: ",
+            "0080235358",
+          ],
+          "data-css-19o0xc1": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Minimum Number: ",
+          "0080235358",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "Maximum Number: ",
+            "0774369284",
+          ],
+          "data-css-19o0xc1": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Maximum Number: ",
+          "0774369284",
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            "Total numbers generated: ",
+            10,
+          ],
+          "data-css-tn55bb": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          "Total numbers generated: ",
+          10,
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <Box
+            data-css-19o0xc1=""
+          >
+            Minimum Number: 
+            0080235358
+          </Box>,
+          <Box
+            data-css-19o0xc1=""
+          >
+            Maximum Number: 
+            0774369284
+          </Box>,
+          <Box
+            data-css-tn55bb=""
+          >
+            Total numbers generated: 
+            10
+          </Box>,
+        ],
+        "data-css-19oxhgi": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "Minimum Number: ",
+              "0080235358",
+            ],
+            "data-css-19o0xc1": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Minimum Number: ",
+            "0080235358",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "Maximum Number: ",
+              "0774369284",
+            ],
+            "data-css-19o0xc1": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Maximum Number: ",
+            "0774369284",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              "Total numbers generated: ",
+              10,
+            ],
+            "data-css-tn55bb": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            "Total numbers generated: ",
+            10,
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
