@@ -49,17 +49,23 @@ export const storePhoneNumber = async function() {
 };
 
 export default class Generator extends React.Component {
+  state = {
+    phoneNumbers: [],
+    error: false
+  };
   constructor(props) {
     super(props);
-    this.state = {
-      phoneNumbers: [],
-      error: false
-    };
+    this.handlePhoneNumbers = this.handlePhoneNumbers.bind(this);
+    this.handleStorage = this.handleStorage.bind(this);
   }
 
-  handlePhoneNumbers = () => getPhoneNumbers.bind(this)();
+  handlePhoneNumbers() {
+    return getPhoneNumbers.bind(this)();
+  }
 
-  handleStorage = () => storePhoneNumber.bind(this)();
+  handleStorage() {
+    return storePhoneNumber.bind(this)();
+  }
 
   render() {
     const { phoneNumbers, error } = this.state;
@@ -71,7 +77,7 @@ export default class Generator extends React.Component {
           flexDirection: "column"
         })}
       >
-        <Button className="phone-numbers" onClick={() => this.handlePhoneNumbers()}>
+        <Button className="phone-numbers" onClick={this.handlePhoneNumbers}>
           Generate numbers
         </Button>
         {phoneNumbers && <PhoneNumbersList phoneNumbers={phoneNumbers} />}
@@ -84,7 +90,7 @@ export default class Generator extends React.Component {
               flexDirection: "column"
             })}
           >
-            <Button className="store-number" onClick={() => this.handleStorage()}>
+            <Button className="store-number" onClick={this.handleStorage}>
               Store Numbers
             </Button>
           </Box>
