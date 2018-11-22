@@ -8,39 +8,33 @@ import { shallow, mount, render } from "enzyme";
 
 describe("Pages tests", () => {
   describe("Generator Page", () => {
-    const props = { phoneNumbers: "0821517432\n0481834224" };
-    const wrapper = mount(<Generator />);
+    const props = ["0977258955", "0008623517", "0013548266"];
+    const component = mount(<Generator {...props}/>);
+
     const mockComponent = {
       setState() {}
     };
-    it("should match snapshot", () => {
-      expect(wrapper).toMatchSnapshot();
-    });
 
     it("should match snapshot", () => {
-      const props = ["0977258955", "0008623517", "0013548266"];
-      const component = shallow(<PhoneNumbersList {...props} />);
+
       expect(component).toMatchSnapshot();
     });
 
     it("should call handlePhoneNumbers method on mouse click", () => {
       const handlePhoneNumbersSpy = jest.spyOn(
-        wrapper.instance(),
+        component.instance(),
         "handlePhoneNumbers"
       );
-      wrapper
-        .find(".phone-numbers")
-        .first()
-        .simulate("click");
+
+        component.instance().handlePhoneNumbers()
       expect(handlePhoneNumbersSpy).toHaveBeenCalledTimes(1);
     });
 
     it("should call  handleStorage method on mouse click", () => {
-      const handleStorageSpy = jest.spyOn(wrapper.instance(), "handleStorage");
-      wrapper
-        .find(".store-number")
-        .first()
-        .simulate("click");
+      const handleStorageSpy = jest.spyOn(component.instance(), "handleStorage");
+      
+      component.instance().handleStorage()
+
       expect(handleStorageSpy).toHaveBeenCalledTimes(1);
     });
 
